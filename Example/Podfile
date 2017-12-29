@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'Example' do
+    pod 'ngebase', :path => '../'
+    #pod 'ngebase', :podspec => '../ngebase.podspec'
+
+    pod 'Masonry', '~> 1.0.2'
+
+end
